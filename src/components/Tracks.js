@@ -16,7 +16,7 @@ const Tracks = (props) => {
                             <span className="badge badge-warning">ArtistName</span> <span className="coolText">{item.track.artist_name}</span> <br></br>
                             <span className="badge badge-success">TrackName</span> <span className="coolText">{item.track.track_name}</span> <br></br>
                             <span className="badge badge-danger">Album</span> <span className="coolText">{item.track.album_name}</span> <br></br>
-                            <NavLink to={url}><button className="coolText btn btn-secondary">Ver letra</button></NavLink>
+                            <NavLink to={url}><button className="coolText btn btn-secondary">See lyrics</button></NavLink>
                         </div>    
                     </div>
                     <br></br>

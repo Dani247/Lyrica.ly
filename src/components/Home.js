@@ -66,7 +66,7 @@ class Home extends React.Component{
                     <div className="row">
                         <div className="col-12">
                             <h1 className="titulo">Lyrica.<span className="text-primary">ly</span></h1>
-                            <h3 className="coolText">Busca la letra de alguna cancion...</h3>
+                            <h3 className="coolText">Search lyrics for any song...</h3>
                             <input onKeyPress={this.enterHandler} onChange={this.inputHandler} className="form-control coolText" placeholder="The kooks - Junk Of The Hearth [ENTER]"></input>
                         </div>
                     </div>

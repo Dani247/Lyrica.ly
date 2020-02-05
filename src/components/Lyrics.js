@@ -41,10 +41,10 @@ class Lyrics extends React.Component {
             result = <Loading></Loading>
         }else{
             result = (<div>
-                <NavLink to="/"><button className="coolText btn btn-primary">Regresar</button></NavLink>
+                <NavLink to="/"><button className="coolText btn btn-primary">Back</button></NavLink>
                 <div className="card">
                     <div className="card-body">
-                        <h3 className="card-title">Letra:</h3>
+                        <h3 className="card-title">Lyrics:</h3>
                         <p className="card-text">{this.state.letra}</p>
                     </div>
                 </div>
