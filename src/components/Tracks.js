@@ -5,7 +5,7 @@ const Tracks = (props) => {
     console.log(props.data);
     let result;
     if(props.data.message.body.track_list.length === 0){
-        result = <h2><span className="badge badge-danger">No hay datos, intenta otra busqueda</span></h2>
+        result = <h2><span className="badge badge-danger">No data, try again</span></h2>
     }else{
         result = (
             props.data.message.body.track_list.map((item,index)=>{
